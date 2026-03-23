@@ -1,15 +1,13 @@
-import swagTeeBlack from '@/assets/products/swag-tee-black.jpg';
-import crewTeeBlack from '@/assets/products/crew-tee-black.jpg';
-import crewTeeWhite from '@/assets/products/crew-tee-white.jpg';
-import swagTeeBlack2 from '@/assets/products/swag-tee-black-2.jpg';
-import mascotTee from '@/assets/products/mascot-tee.jpg';
-
-// New Imports based on your sidebar
-import jaTees from '@/assets/products/9JA TEES.jpg';
-import allGirlsSame from '@/assets/products/all girls same.jpg';
-import noChillGuy from '@/assets/products/no chill guy.jpg';
-import noThiefIkeja from '@/assets/products/no thief ikeja.jpg';
-import yelloBlowUp from '@/assets/products/Yello Blow UP.jpg';
+import mobTeeBlack from '@/assets/products/mob-tee-black.jpg';
+import shyTeeWhite from '@/assets/products/shy-tee-white.jpg';
+import cryTeeWhite from '@/assets/products/cry-tee-white.jpg';
+import demonTeeWhite from '@/assets/products/demon-tee-white.jpg';
+import chaosTeeBlack from '@/assets/products/chaos-tee-black.jpg';
+import squadTeeWhite from '@/assets/products/squad-tee-white.jpg';
+import chaosTeeWhite from '@/assets/products/chaos-tee-white.jpg';
+import rickTeeBlack from '@/assets/products/rick-tee-black.jpg';
+import holeTeeBlack from '@/assets/products/hole-tee-black.jpg';
+import neonMobTeeBlack from '@/assets/products/neon-mob-tee-black.jpg';
 
 export interface Product {
   id: string;
@@ -18,68 +16,67 @@ export interface Product {
   price: number;
 }
 
-export const PRODUCT_PRICE = 10000;
+export const PRODUCT_PRICE = 13000;
 
 export const products: Product[] = [
   {
-    id: 'swag-tee-1',
+    id: 'mob-tee-black',
     name: '001',
-    image: swagTeeBlack,
+    image: mobTeeBlack,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'crew-tee-black',
+    id: 'shy-tee-white',
     name: '002',
-    image: crewTeeBlack,
+    image: shyTeeWhite,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'crew-tee-white',
+    id: 'cry-tee-white',
     name: '003',
-    image: crewTeeWhite,
+    image: cryTeeWhite,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'swag-tee-2',
+    id: 'demon-tee-white',
     name: '004',
-    image: swagTeeBlack2,
+    image: demonTeeWhite,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'mascot-tee',
+    id: 'chaos-tee-black',
     name: '005',
-    image: mascotTee,
+    image: chaosTeeBlack,
     price: PRODUCT_PRICE,
   },
-  // --- Bottom Row Starts Here (Updated Images) ---
   {
-    id: 'swag-tee-3',
+    id: 'squad-tee-white',
     name: '006',
-    image: noChillGuy, 
+    image: squadTeeWhite,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'crew-tee-lime',
+    id: 'chaos-tee-white',
     name: '007',
-    image: jaTees, 
+    image: chaosTeeWhite,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'classic-crew',
+    id: 'rick-tee-black',
     name: '008',
-    image: allGirlsSame,
+    image: rickTeeBlack,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'limited-drop',
+    id: 'hole-tee-black',
     name: '009',
-    image: noThiefIkeja,
+    image: holeTeeBlack,
     price: PRODUCT_PRICE,
   },
   {
-    id: 'mascot-premium',
+    id: 'neon-mob-tee',
     name: '010',
-    image: yelloBlowUp,
+    image: neonMobTeeBlack,
     price: PRODUCT_PRICE,
   },
 ];

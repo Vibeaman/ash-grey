@@ -17,7 +17,7 @@ const Index = () => {
             <span className="text-primary">001</span>
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl max-w-md mx-auto">
-            Limited edition streetwear. Prices available on request.
+            Limited edition streetwear. Get yours before they're gone.
           </p>
         </section>
 
